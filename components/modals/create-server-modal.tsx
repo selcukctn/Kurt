@@ -58,6 +58,7 @@ export const CreateServerModal = () => {
             await axios.post("/api/servers",values);
             form.reset();
             router.refresh();
+            onClose();
             window.location.reload();
         } catch (error) {
             console.log(error);
