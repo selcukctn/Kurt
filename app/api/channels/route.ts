@@ -43,7 +43,7 @@ export async function POST(req: Request) {
                     }
                 }
             }
-        })
+        }).then((res)=>{console.log(res)});
         return NextResponse.json(server);
     } catch (error) {
         console.log('CHANNELS_POST', error)
