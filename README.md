@@ -1,2 +1,2 @@
-# Kurt
- Kurt - Grup Sohbeti, Eğlence ve Oyunlar
+# Kurt - Discord Clone
+ Nextjs, Prisma, Typescript, React
